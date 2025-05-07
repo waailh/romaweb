@@ -1,0 +1,385 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #469292;
+}
+
+@layer base {
+  .wrapper {
+    @apply px-2 md:px-2 lg:px-3 xl:px-4  flex flex-col w-full mx-auto max-w-[1300px];
+  }
+  .slider-wrapper {
+    @apply px-2 md:px-2 lg:px-3 xl:px-4  flex flex-col w-full mx-auto max-w-[1300px];
+  }
+  .mobnav-wrapper {
+    @apply px-4 pt-4 flex flex-col w-full mx-auto;
+  }
+  .mini-wrapper {
+    @apply w-full lg:max-w-[1000px] lg:mx-auto flex flex-col;
+  }
+  .together {
+    @apply flex items-center space-s-2;
+  }
+  .apart {
+    @apply flex items-center justify-between space-s-2;
+  }
+  .centery {
+    @apply flex items-center justify-center;
+  }
+  .box {
+    @apply flex items-center;
+  }
+
+  button.glide__bullet.bg-grayee.glide__bullet--active {
+    @apply !bg-primary !w-4 !rounded-[1rem];
+  }
+  /* *********************** */
+  /* typography */
+  h1 {
+    @apply text-[40px] leading-6 font-bold;
+  }
+  h2 {
+    @apply text-[32px] font-bold;
+  }
+  h3 {
+    @apply text-[24px] font-bold;
+  }
+  h4 {
+    @apply text-[18px] font-bold;
+  }
+  h5 {
+    @apply text-[16px] font-bold;
+  }
+  h6 {
+    @apply text-[14px] font-bold;
+  }
+  /* *********************** */
+
+  /* *********************** */
+  /* text */
+  .text-regular {
+    @apply text-[14px] leading-normal font-normal;
+  }
+  .text-medium {
+    @apply text-[14px] leading-normal font-medium;
+  }
+
+  .text-label {
+    @apply text-[14px] leading-6 font-medium;
+  }
+
+  /* *********************** */
+
+  /* html description styling */
+  #html_des > h1 {
+    @apply mb-4 text-xl;
+  }
+  #html_des > p {
+    @apply mb-2 text-sm;
+  }
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+  .locate-me-button {
+    @apply border px-2 z-[999] bg-white cursor-pointer text-lg font-semibold mt-3;
+  }
+
+  .clip-five-sided {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%, 0 90%);
+  }
+
+  .GMAMP-maps-pin-view {
+    @apply !outline-none;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* zindex */
+  .z-lowest {
+    z-index: -1;
+  }
+  .z-low {
+    z-index: 9;
+  }
+  .z-layer-1 {
+    z-index: 99;
+  }
+  .z-layer-2 {
+    z-index: 999;
+  }
+  .z-layer-3 {
+    /* z-index: 99; */
+    z-index: 9999;
+  }
+  .z-layer-4 {
+    z-index: 99999;
+  }
+
+  .z-layer-5 {
+    z-index: 999999;
+  }
+  .z-layer-5-1 {
+    z-index: 9999991 !important;
+  }
+  .z-layer-5-2 {
+    z-index: 9999992 !important;
+  }
+
+  .z-high {
+    z-index: 9999999;
+  }
+  .z-highest {
+    z-index: 99999999;
+  }
+  .z-highestest {
+    z-index: 999999999;
+  }
+
+  /* ****************** */
+  /* end of zindex */
+
+  .hover-border-animation {
+    position: relative;
+  }
+
+  .hover-border-animation::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary);
+    transition: width 0.3s;
+  }
+
+  .hover-border-animation:hover::after {
+    width: 100%;
+  }
+
+  .active-link::after {
+    width: 100%;
+  }
+}
+
+/* animations */
+
+@keyframes bounce-slow {
+  0%,
+  100% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s infinite;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* custom scrollbar */
+
+/* ***************** X scrollbar */
+.custom-x-scrollbar::-webkit-scrollbar {
+  height: 4px;
+}
+
+.custom-x-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  height: 3px;
+}
+
+.custom-x-scrollbar::-webkit-scrollbar-thumb {
+  background: #3e414b;
+  border-radius: 7px;
+}
+
+.custom-x-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+/* ***************** Y scrollbar */
+.custom-y-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-y-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 3px;
+}
+
+.custom-y-scrollbar::-webkit-scrollbar-thumb {
+  background: #3e414b;
+  border-radius: 7px;
+}
+
+.custom-y-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #000;
+}
+
+/* ******************************* */
+/* border animation */
+@media screen and (min-width: 600px) {
+  #animatedB {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
+    transition: all 100ms ease-in;
+  }
+
+  #animatedB:before,
+  #animatedB:after {
+    display: block;
+    width: 100%;
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    height: 0px;
+    pointer-events: none;
+    /* border-radius: 5px; */
+  }
+  #animatedB:before {
+    border-top: 2px solid var(--primary);
+    border-right: 2px solid var(--primary);
+    left: -100%;
+    top: 0;
+    height: 0px;
+  }
+  #animatedB:after {
+    border-bottom: 2px solid var(--primary);
+    border-left: 2px solid var(--primary);
+    left: 100%;
+    bottom: 0;
+    height: 0px;
+  }
+  @-webkit-keyframes left-up {
+    0% {
+      left: 100%;
+      height: 0;
+    }
+    50% {
+      left: 0;
+      height: 0;
+    }
+    100% {
+      height: 100%;
+      left: 0;
+    }
+  }
+  @-webkit-keyframes right-dn {
+    0% {
+      left: -100%;
+      height: 0;
+    }
+    50% {
+      left: 0;
+      height: 0;
+    }
+    100% {
+      height: 100%;
+      left: 0;
+    }
+  }
+
+  #animatedB:hover:after,
+  #animatedB:hover:before {
+    -webkit-animation-duration: 800ms;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+  }
+
+  #animatedB:hover:after {
+    -webkit-animation-name: left-up;
+  }
+  #animatedB:hover:before {
+    -webkit-animation-name: right-dn;
+  }
+}
+/* end of border animation */
+/* ******************************* */
+
+/* text between two horizontal lines */
+/* ********************************** */
+
+.text-bet:after,
+.text-bet:before {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* handling swiper navigation arrows */
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 12px !important; /* Adjust icon size */
+  color: white !important;
+}
+
+/* work the pasted static pages */
+
+.pasted-p,
+.pasted-p > span,
+.pasted-p > font > span {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 15px;
+  color: black;
+}
+.pasted-strong {
+  font-size: 15px;
+  font-weight: bold;
+}
+.pasted-a {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.pasted-h1 {
+  font-weight: bold;
+  margin-bottom: 18px;
+  font-size: 28px;
+  color: black;
+}
+
+.pasted-h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: black;
+}
+
+.pasted-h3 {
+  font-weight: bold;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: black;
+}
+
+.pasted-h4 {
+  font-weight: bold;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: black;
+}
