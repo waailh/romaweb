@@ -1,0 +1,549 @@
+{
+  "General": {
+    "all": "All"
+  },
+  "Navbar": {
+    "searchPlaceholder": "What Are You Looking for...",
+    "helpLine": "Help Line",
+    "ourStores": "Our Stores Locations",
+    "allBrands": "All Brands",
+    "home": "Home",
+    "flash": "Flash Sale",
+    "offs": "Offers",
+    "todaysdeal": "Today's Deals",
+    "login": "Login"
+  },
+  "Brands": {
+    "popBrands": "Popular Brands",
+    "vAll": "View All",
+    "working": "Brands We are working with"
+  },
+  "Color": {
+    "lenseCats": "Color Lenses Brands",
+    "vAll": "View All"
+  },
+  "Cats": {
+    "cats": "Categories",
+    "cat": "Category"
+  },
+  "Statics": {
+    "abt": "About Us",
+    "aboutTitle": "Who Are We",
+    "focusTitle": "We Focus On",
+    "closes": "Closes at",
+    "showmap": "Show on Map"
+  },
+  "Bread": {
+    "home": "Home"
+  },
+  "Products": {
+    "best": "Bestsellers",
+    "bestdes": "Explore our best selling products!",
+
+    "feat": "Featured Products",
+    "featdes": "A collection of the best featured products",
+
+    "late": "Latest Products",
+    "latedes": "Check out our latest Arrivals",
+
+    "rel": "Related Products",
+    "reldes": "Similar Products",
+
+    "withPow": "With Power",
+    "withoutPow": "Without Power",
+
+    "noprods": "No Products found !",
+    "all": "All",
+    "rng": "With Ring",
+    "norng": "Without Ring",
+
+    "chng": "Change"
+  },
+  "Faq": {
+    "cAll": "See All",
+    "faq": "Frequently Asked Questions",
+    "faqin": "Have any questions? Read popular answers below See all",
+    "faqbig": "Have any questions? read popular answers below"
+  },
+  "Footer": {
+    "compny": "Company",
+    "abt": "About US",
+    "faq": "FAQ",
+    "blg": "Blog",
+    "ret": "Return Policy",
+    "sup": "Support Policy",
+
+    "ourstr": "Our Store",
+    "shp": "Shop",
+    "crt": "Cart",
+    "myacc": "My Account",
+    "track": "Track Order",
+
+    "trms": "Terms of Use",
+    "priv": "Privacy Policy",
+    "rigts": "ROMA OPTICALS. All rights reserved.",
+
+    "accppays": "Accepted Payments",
+
+    "mobs": "Roma Mobile Apps",
+
+    "applst": "Download on the App Store",
+    "googst": "Get it on Google Play",
+
+    "joinnws": "Join Our Newsletter",
+    "nwsp": "We love to surprise our subscribers with occasional gifts.",
+
+    "subsplace": "Your Email Address",
+    "subsbtn": "Subscribe",
+    "nomssg": "No Email"
+  },
+  "Offers": {
+    "findOut": "FIND OUT OUR BEST OFFERS",
+    "discover": "Discover our latest collections featuring a vibrant array of color lenses and crisp, clear options.",
+    "explore": "Explore Shop",
+    "discvr": "Discover our latest collections.",
+    "featuring": "featuring a vibrant array of color lenses and crisp, clear options.",
+    "newArrivals": "New Arrivals",
+
+    "ten": "10% Off!",
+    "stockup": "Stock up on all your summer essentials for less with 10% off!",
+    "uscode": "Use Code:",
+    "offends": "Offer end 23:59 29/05/24. While stock lasts. Excludes gift sets and bundles. Can not be used with other discount codes.",
+    "shopn": "Shop Now",
+
+    "specioffs": "Special Offers",
+    "off": "Off",
+    "vw": "View",
+    "chckdeals": "Check our Amazing Flash Deals"
+  },
+  "BreadC": {
+    "acc": "Account",
+    "crt": "Cart",
+    "chkout": "Checkout",
+    "flsh": "Flash Deals",
+    "branches": "Our Branches",
+    "brnds": "Brands",
+    "shop": "Shop",
+    "thisOffr": "This Offer",
+    "proddets": "Product Details",
+    "todays": "Todays Deals",
+    "abtus": "About Us",
+    "prvcy": "Privacy Policy",
+    "retpolicy": "Return Policy",
+    "suppolicy": "Support Policy",
+    "terms": "Terms and Conditions",
+    "wish": "Wishlist",
+    "blg": "Blog",
+    "sharing": "Sharing Products",
+
+    "offrs": "Offers",
+    "delacc": "Deleting Account",
+    "spcil": "Special Deal Section"
+  },
+  "Filter": {
+    "catplace": "search category...",
+    "brnds": "Brands",
+    "brndsplace": "search brands...",
+    "clrs": "Colors",
+    "price": "Price",
+    "min": "min",
+    "max": "max",
+    "apply": "Apply Filters",
+    "reset": "Reset Filter",
+
+    "col": "By Color:",
+    "usg": "By Usage:",
+    "styl": "By Style:",
+    "brnd": "By Brand:",
+    "fltr": "Filter",
+    "pric": "By Price:"
+  },
+
+  "Product": {
+    "instk": "in stock",
+    "outstk": "out of stock",
+    "addcrt": "Add to Cart",
+    "fulldets": "View Full Details",
+    "revs": "Reviews",
+    "price": "Price",
+    "colr": "Color",
+    "pow": "Power",
+    "slctpow": "Select Power",
+    "slct": "Select",
+    "righteye": "Right Eye",
+    "lefteye": "Left Eye",
+    "usg": "Usage Time",
+    "instkready": "In stock | Ready to be shipped",
+    "only": "Only",
+    "availstk": "Available in stock",
+    "wrth": "WORTH",
+    "pnts": "POINTS",
+    "earnevry": "Earn 1 Point for every",
+    "spnd": "spent",
+    "alrdycrt": "Already In Cart!",
+    "des": "Description",
+    "details": "Details",
+
+    "norevs": "This Product has no reviews!",
+    "addrev": "Add Review",
+    "nmor": "No More",
+    "loadmor": "Load More",
+    "submt": "Sumbit",
+    "freeship": "Free shipping on orders over",
+    "redmor": "Read More",
+    "share": "Share",
+    "availin": "Available in",
+    "colrs": "colors",
+    "shwls": "Show less",
+    "allcolrs": "Discover The Entire Collection",
+    "nw": "New"
+  },
+  "Account": {
+    "accdets": "Account Details",
+    "ordrs": "Orders",
+    "addrss": "Addresses",
+
+    "noordrs": "No Orders",
+    "nomor": "No More",
+    "vwmor": "View More",
+
+    "mainmenu": "MAIN MENU",
+    "track": "TRACK YOUR ORDERS",
+
+    "trck": "Track Order:",
+
+    "addnw": "Add A new Address",
+    "bck": "Back",
+
+    "name": "Name",
+    "nameplace": "Omnia...",
+
+    "adrlabel": "Address Label",
+    "labl": "Home/ Office...",
+
+    "apartnum": "Flat/House Number",
+    "apartnumplc": "Enter Your Apartment/House Number...",
+
+    "buildnm": "Building Name/ Neighbourhood",
+    "buildnmplc": "Enter Building Name...",
+
+    "line1": "Address",
+    "lin1place": "Building Name/Apartment/Floor/Office No.",
+    "line2": "Area",
+    "lin2place": "Neighbourhood/Area...",
+
+    "state": "State/Emirate/Province",
+    "stateplace": "State/Emirate/Province",
+
+    "postalc": "Postal Code",
+    "postalplace": "Postal Code...",
+    "phone": "Phone",
+    "cty": "City",
+    "ctyplace": "City...",
+    "cntry": "Country",
+    "pinloc": "Pin Your Location on the Map",
+    "pickarea": "Pick Your Area",
+    "locplc": "Enter an Area/ Neighbourhood",
+    "confloc": "Confirm Location",
+    "sved": "saved !",
+
+    "save": "Save",
+    "add": "Add",
+
+    "mng": "Manage Addresses",
+    "addnu": "Add New",
+    "verify": "Verify",
+    "noaddrss": "You have no Addresses yet",
+    "confaddr": "Confirm Address",
+    "vercode": "Verification Code has been sent to your phone No.",
+
+    "hint": "Hint",
+    "adju": "Adjust the zoom level to get a closer or wider view of the map.",
+    "choosbet": "Choose between different map views (e.g., satellite, terrain, street view).",
+    "listany": "List any notable landmarks near the address to help identify the location.",
+
+    "personal": "Personal Details",
+    "verified": "Verified User",
+    "entraval": "Enter a valid email address that you check regularly. We will use this to send you important updates.",
+
+    "points": "Points",
+
+    "plscreate": "Please Create An Account, you are a guest now!",
+    "log": "Login/Register",
+    "fullname": "Full Name",
+    "fullnameplace": "Omnia...",
+
+    "email": "Email Address",
+    "emailplace": "youremail@company.com",
+    "dob": "What is your date of Birth?",
+    "day": "Day",
+    "mon": "Month",
+    "yr": "Year",
+    "savchnges": "Save Changes",
+
+    "chngpass": "Change Password",
+    "oldpass": "Old Password",
+    "nupass": "New Password",
+    "confpass": "Confirm Password",
+
+    "ordrid": "Order ID",
+    "date": "Date",
+    "paid": "paid",
+    "unpaid": "unpaid",
+    "itms": "Items",
+    "yurgift": "Your Gift",
+    "fre": "Free",
+    "specs": "Specifications",
+    "tot": "Total",
+
+    "deladrs": "Delete",
+    "dwninv": "Download Invoice",
+
+    "emptytrack": "Your Order is recieved, not yet sent to our delivery partner.",
+
+    "scrns": "You can delete the account on the application easily as shown in these screenshots from the app:",
+    "dellngtxt": "We prioritize user control and privacy by offering the ability to delete accounts directly within the app. This feature ensures users have full autonomy over their data and can easily manage their information. Along with account deletion, we also provide an option for users to remove their personal data from our systems, aligning with privacy best practices. This process is seamless and transparent, allowing users to make informed decisions about their digital presence. We are committed to safeguarding user privacy while maintaining a user-friendly experience throughout the account and data deletion process."
+  },
+  "Cart": {
+    "specs": "Specifications",
+    "free": "Free",
+    "tax": "Tax",
+    "itmtot": "Item Total",
+    "subtot": "Subtotal",
+    "taxes": "Taxes",
+    "carttot": "Cart Total",
+    "noitms": "No Items in cart",
+    "shop": "Shop Now",
+
+    "tot": "Total",
+    "clrall": "Clear All",
+    "chckout": "Checkout Now",
+
+    "congs": "Congratulations, We have A Coupon For You!",
+    "enj": "Enjoy",
+    "cls": "Close",
+    "peroff": "% OFF",
+    "scrtchere": "scratch Here",
+    "scrtch": "scratch the above area to view the coupon code",
+    "499mssg": "For A More Valuable Coupon Add Cart Items of Value more than 499 AED",
+    "699mssg": "For A More Valuable Coupon Add Cart Items of Value more than 699 AED"
+  },
+  "Checkout": {
+    "cash": "Cash On Delivery",
+    "online": "Online Payment",
+    "points": "With Points",
+    "back": "BACK",
+    "order": "Order Now",
+
+    "chosgift": "Choose Your Free Gift",
+    "return": "RETURN TO SHOPPING",
+    "comp": "Complete Order",
+
+    "cop": "Coupon",
+    "ponts": "Points",
+
+    "isapp": "is Applied Successfully",
+    "nocop": "No Coupon Code Applied.",
+
+    "isusd": "Successfully Used.",
+    "nopoi": "No Points Used.",
+    "max": "Max",
+
+    "appl": "Apply",
+    "use": "Use",
+
+    "remv": "remove",
+
+    "chosepay": "Choose Payment Method",
+
+    "shipfee": "Shipping Fees",
+    "copdis": "Coupon Discount",
+    "poidis": "Points Discount",
+    "gtot": "Grand Total",
+    "allapp": "all applicable duties, taxes and fees are included in the total amount of your order. we guarantee you will not be required to pay any additional cost on delivery.",
+    "chosgft": "Choose Gift",
+    "chosen": "Gift Chosen",
+    "withdelfee": "+ Delivery Fees",
+    "onlinefree": "Free Delivery for UAE Orders Paid Online"
+  },
+  "Messages": {
+    "faile": "Failed!",
+    "weredire": "we are redirecting you to your cart page...",
+    "succs": "Successfull Order",
+    "vuorder": "View My Order Details"
+  },
+  "Flashdeal": {
+    "savflat": "Save up to FLAT",
+    "svupto": "Save up to",
+    "off": " % OFF !",
+    "explor": "Explore Our",
+    "offr": "Offer",
+    "these": "THESE PRODUCTS ARE ON SALE !",
+    "nocod": "No code needed. While stocks last.",
+    "explr": "Explore",
+    "days": "Days",
+    "hrs": "Hours",
+    "mins": "Mins",
+    "second": "Seconds",
+    "timeleft": "Time Left Until this Flash Sale Expires"
+  },
+  "Wishlist": {
+    "savedprods": "Saved Products:",
+    "clrall": "Clear All",
+    "sharewish": "Share wishlist",
+    "addall": "Add All to Cart",
+    "noitms": "No Items in Wishlist",
+    "explr": "Explore our Products",
+    "remov": "Remove"
+  },
+  "Fixed": {
+    "hme": "Home",
+    "cats": "Categories",
+    "offrs": "Offers",
+    "ordrs": "Orders",
+    "acc": "Account"
+  },
+  "Modals": {
+    "emal": "Email Address",
+    "enter": "Enter Email Address",
+    "pass": "Password",
+    "forg": "Forgot Your Password?",
+    "bycont": "By Continuing, You Agree To The ",
+    "trms": "Terms",
+    "ofuse": "of Use and",
+    "privcy": "Privacy Policy.",
+    "logn": "Login",
+    "dnthav": "Don't have an account?",
+    "signup": "Sign Up",
+
+    "orcontin": "Or continue with",
+    "congoog": "Continue with Google",
+    "conappl": "Continue with Apple",
+
+    "conguest": "Continue as Guest",
+
+    "regs": "Register",
+    "fulln": "Full Name",
+    "entefuln": "Enter Full Name",
+
+    "confpass": "Confirm Password",
+    "dob": "Date of Birth",
+    "d": "Day",
+    "m": "Month",
+    "y": "Year",
+
+    "alrdy": "Already have an account?",
+
+    "reset": "Reset Password",
+    "cde": "Code",
+    "entervercode": "Enter Verification Code...",
+    "nupass": "New Password",
+
+    "sendpasres": "Send Password Reset Email",
+
+    "gnrl": "General Settings",
+    "shippinto": "Shipping to",
+    "sitelan": "Site Language",
+    "sve": "Save"
+  },
+  "Blog": {
+    "wel": "Welcome to Our Blog",
+    "downtext": "Your essential guide to living an organic lifestyle.",
+    "srchplace": "Search Blog...",
+
+    "all": "All",
+
+    "readnow": "Read Now",
+    "noarticls": "No Articles !",
+
+    "blg": "Blog",
+
+    "byahmedosm": "By Mihad Makkawi",
+
+    "relcats": "Related Categories:",
+    "rdnxt": "Read Next"
+  },
+  "ByColor": {
+    "shopbycolr": "Shop by Color"
+  },
+  "SpecialDeal": {
+    "limitd": "Limited",
+    "limited": "Limited Offer",
+    "speci": "Special Offer",
+    "vspeci": "Very Special Offer"
+  },
+  "Errors": {
+    "notfound": "This Page is not Found!"
+  },
+
+  "ErrorToast": {
+    "emptyflds": "Empty Fields!",
+    "err": "Error!",
+
+    "dontship": "we don't ship to this destination!",
+    "slctlocfrst": "Please select a location first",
+    "pname": "Please provide your name",
+    "phonman": "Phone Number is Mandatory",
+    "postal": "Add a postal code",
+
+    "slctcont": "Please Select Country...",
+
+    "passshort": "Password too short (Min: 6 characters)",
+    "passnum": "Password Must contain a number",
+    "passletter": "Password Must contain a letter",
+    "passstrange": "Password contains Invalid characters",
+    "passmatch": "Passwords do not match",
+
+    "errdef": "error setting address to default.",
+    "wrngotp": "wrong otp!",
+
+    "coupex": "Coupon Expired!",
+    "invcoup": "Invalid Coupon Code!",
+
+    "fyld": "failed!",
+
+    "smthngwrong": "something went wrong!",
+
+    "addnavail": "Cash on delivery is not available for this Address.",
+    "failord": "Failed Completing Order",
+    "failordcomp": "Failed Completing Order",
+    "paysupnot": "payment method not supported!",
+    "paysel": "Choose a payment method!",
+    "veraddnot": "you do not have a verified address!",
+    "specialoffernot": "To Add Special Offer Items, Your Cart Value Must Be More Than ",
+
+    "redirecterr": "Error getting redirection link!",
+    "crtftcherr": "failed fetching cart data",
+
+    "prodsfetcherr": "error fetching products",
+    "toolong": "too long!",
+
+    "cantrev": "You cannot review this product!",
+    "powerr": "power error!",
+    "erradditm": "Error Adding Item!",
+
+    "fyladditm": "Failed to add to cart, try again!",
+
+    "plswait": "please wait..."
+  },
+
+  "SuccessToast": {
+    "profup": "Successfully Updated!",
+
+    "passup": "Successfully updated password!",
+    "outsuc": "Logged out successfully",
+    "defsucc": "successfully set to default",
+    "veri": "Verified!",
+    "succremov": "successfully removed!",
+    "sucaddcoup": "Successfully added Coupon",
+    "succpoints": "Successfully used Points",
+    "logged": "Successfully Logged in!",
+    "succotpemail": "Successfully Sent otp to your email!",
+    "resetted": "Password Resetted!",
+    "addcart": "Added to Cart",
+    "succaddd": "Successfully Added!",
+    "itmcrtadd": "Item added to Cart!",
+
+    "powcho": "Power Choosen!"
+  }
+}
